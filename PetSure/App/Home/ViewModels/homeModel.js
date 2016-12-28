@@ -2,6 +2,7 @@
 
     $scope.viewModelHelper = viewModelHelper;
     $scope.homeService = homeService;
+    var fileArr = {};
 
     var initialize = function () {
         $scope.files = "";
@@ -9,6 +10,15 @@
         $scope.getPets();
 
         var dropzone = document.getElementById('dropzone');
+
+
+        dropzone.ondragover = function () {
+            $(this).addClass("drag-active");
+        }
+
+        dropzone.ondragleave = function () {
+            $(this).removeClass("drag-active");
+        }
 
         dropzone.ondrop = function (e) {
             e.preventDefault();
@@ -57,7 +67,7 @@
 
             obj[0] = objArr;
             alert(JSON.stringify(obj));
-
+            console.log(JSON.stringify(obj));
             $scope.getPets();
         }
     }

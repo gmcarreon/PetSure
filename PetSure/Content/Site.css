@@ -36,6 +36,10 @@ textarea {
     overflow:hidden;
 }
 
+.drag-active {
+    border:2px dashed gray !important;
+}
+
 .file-upload {
     display:inline-block;
     width:100%;
