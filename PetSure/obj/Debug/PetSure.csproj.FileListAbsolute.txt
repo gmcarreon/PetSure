@@ -263,6 +263,5 @@ C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\bin\Microsoft.Owin.Security.Go
 C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\bin\System.Web.Http.Owin.xml
-C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\obj\Debug\PetSure.csprojResolveAssemblyReference.cache
 C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\obj\Debug\PetSure.dll
 C:\Users\Yad\Desktop\Test PetSure\PetSure\PetSure\obj\Debug\PetSure.pdb

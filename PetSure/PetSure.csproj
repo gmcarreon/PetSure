@@ -210,8 +210,15 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\App.js" />
+    <Content Include="App\Home\App.js" />
+    <Content Include="App\Home\RootViewModel.js" />
+    <Content Include="App\Home\ViewModels\homeModel.js" />
+    <Content Include="App\Home\Views\home.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\petsure.png" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

@@ -1,0 +1,32 @@
+﻿
+<div class="row">
+    <div class="col-sm-8 col-sm-offset-2 col-lg-offset-2">
+        <form class="col-s12">
+            <div class="form-group input-field col-sm-12">
+                <h2>Make a claim</h2>
+            </div>
+            <div class="form-group input-field col-sm-12">
+                <div class="dropdown-pet">
+                    <span>Make a claim for your pet: </span>
+                    <select class="form-control">
+                        <option value="sample"></option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group input-field col-sm-12">
+                <p>Attach's Rover's Invoice for us here</p>
+                <div class="dropzone" id="dropzone" style="display:block;">
+                    <label class="file-upload">
+                        <input type="file" class="filestyle" multiple="multiple" data-buttonName="btn-primary" id="attachment" required/>
+                        <!--<input type="file" id="attachFile" name="default" multiple="multiple" class="file-upload-class" />-->
+                        <span><img src="favicon.ico"/>Drag and drop or <u>select from inbox</u> </span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-group input-field col-sm-12" id="div-files"></div>
+            <div class="form-group input-field col-sm-12">
+                <button class="btn btn-primary pull-left" id="submit-btn">Submit</button> <a href="#" class="footer-link"><u>Or save for later</u></a>
+            </div>
+        </form>
+    </div>
+</div>

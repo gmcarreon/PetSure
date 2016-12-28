@@ -1,1 +1,13 @@
-﻿<h1>HOME PAGE</h1>
+﻿
+
+
+@section scripts{
+
+    <script type="text/javascript" src="~/App/Home/App.js"></script>
+    <script type="text/javascript" src="~/App/Home/RootViewModel.js"></script>
+    <script type="text/javascript" src="~/App/Home/ViewModels/homeModel.js"></script>
+}
+
+<div class="container" data-ng-app="home" data-ng-controller="rootViewModel">
+    <div ng-view></div>
+</div>
