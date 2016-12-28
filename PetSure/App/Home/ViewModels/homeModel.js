@@ -42,5 +42,25 @@
         });
     }
     
+    $scope.submit = function () {
+        var obj = [];
+        var objArr = {};
+        
+        if (fileArr[0] == undefined) {
+            alert("Please choose a file");
+        } else {
+            objArr.pet = $scope.selectedPet;
+
+            objArr.files = fileArr;
+            console.log(fileArr);
+            console.log(objArr);
+
+            obj[0] = objArr;
+            alert(JSON.stringify(obj));
+
+            $scope.getPets();
+        }
+    }
+
     initialize();
 });
