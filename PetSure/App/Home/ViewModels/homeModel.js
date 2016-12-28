@@ -4,8 +4,19 @@
     $scope.homeService = homeService;
 
     var initialize = function () {
-        
+        $scope.files = "";
+        $scope.selectedPet = "";
+        $scope.getPets();
+
     }
-   
+    
+    $scope.getPets = function () {
+        $.get('api/pet', function (data) {
+            console.log(data);
+            $scope.pets = data;
+            $scope.selectedPet = data[0];
+        });
+    }
+    
     initialize();
 });
